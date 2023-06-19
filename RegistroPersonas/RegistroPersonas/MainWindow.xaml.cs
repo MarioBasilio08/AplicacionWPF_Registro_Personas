@@ -30,10 +30,10 @@ namespace RegistroPersonas
             listaPerson = new List<Person>();
 
             Person person1 = new Person(1, "Mario Andres", 23, "andres@gmail.com");
-            Person person2 = new Person(2, "Guillermo Eduardo", 23, "andres@gmail.com");
-            Person person3 = new Person(3, "Samuel Erasto", 23, "andres@gmail.com");
-            Person person4 = new Person(4, "Jose Ricardo", 23, "andres@gmail.com");
-            Person person5 = new Person(5, "Jose Alejandro", 23, "andres@gmail.com");
+            Person person2 = new Person(2, "Guillermo Eduardo", 23, "guillermo@gmail.com");
+            Person person3 = new Person(3, "Samuel Erasto", 23, "samuel@gmail.com");
+            Person person4 = new Person(4, "Jose Ricardo", 23, "jose@gmail.com");
+            Person person5 = new Person(5, "Jose Alejandro", 23, "alejandro@gmail.com");
 
             lista.personas.Add(person1);
             lista.personas.Add(person2);

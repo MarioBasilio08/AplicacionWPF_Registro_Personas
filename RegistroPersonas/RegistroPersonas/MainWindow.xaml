@@ -34,8 +34,8 @@
                 </Grid.RowDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" Content="Id:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 <Label Grid.Row="1" Grid.Column="0" Content="Edad:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox x:Name="TextId" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
-                <TextBox x:Name="TextAge" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+                <TextBox x:Name="TextId" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Text="{Binding TextProperty}" materialDesign:HintAssist.Hint="0" />
+                <TextBox x:Name="TextAge" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Text="{Binding TextProperty}" materialDesign:HintAssist.Hint="18" />
             </Grid>
         </Grid>
 
@@ -51,8 +51,8 @@
                 </Grid.RowDefinitions>
                 <Label Grid.Row="0" Grid.Column="0" Content="Nombre:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 <Label Grid.Row="1" Grid.Column="0" Content="Email:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBox x:Name="TextName" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="360"/>
-                <TextBox x:Name="TextEmail" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="360"/>
+                <TextBox x:Name="TextName" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="360" Text="{Binding TextProperty}" materialDesign:HintAssist.Hint="Andrés Basilio" />
+                <TextBox x:Name="TextEmail" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Width="360" Text="{Binding TextProperty}" materialDesign:HintAssist.Hint="andres.basilio@outlook.es" />
             </Grid>
         </Grid>
 
